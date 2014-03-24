@@ -6,7 +6,7 @@
     (setenv "PATH" (concat "~/.rbenv/shims:" (getenv "PATH"))))
 
 ;; TODO determine which versions should be used in the project
-(setq enh-ruby-program "~/.rbenv/versions/2.0.0-p353/bin/ruby")
+(setq enh-ruby-program "ruby")
 
 (autoload 'enh-ruby-mode "enh-ruby-mode" "Major mode for ruby files" t)
 
