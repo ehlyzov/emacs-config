@@ -1,3 +1,6 @@
+;; we will use common lisp extensions (like 'defun*')
+(require 'cl-lib)
+
 ;; rbenv
 (if (file-exists-p "~/.rbenv")
     (setq exec-path (cons "~/.rbenv/bin" exec-path))
